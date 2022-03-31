@@ -1,0 +1,115 @@
+#header img {
+    height: 60px;
+    width: 60px;
+}
+
+#header>div {
+    margin: 10px;
+    width: -webkit-fill-available;
+}
+
+#content img {
+    height: 500px;
+    width: 500px;
+}
+
+#footer img {
+    height: 20px;
+    width: 22px;
+}
+
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+#header {
+    background-color: rosybrown;
+    position: relative;
+}
+
+.footer {
+    display: flex;
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer>div {
+    margin: 10px;
+    width: -webkit-fill-available;
+}
+
+.hotelImg img {
+    width: 270px;
+    max-height: 300px;
+}
+
+.hotelImg {
+    background-color: rgb(132, 136, 139);
+    width: 70%;
+    height: 20%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.information {
+    margin: 2%;
+    display: flex;
+    background-color: rosybrown;
+    border: 1px solid;
+    font-family: cursive;
+    border-radius: 5px;
+}
+
+.bankInfo {
+    margin-left: 4%;
+    border-radius: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.contact {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.website {
+    text-align: right;
+    margin-right: 2%;
+}
+
+.text {
+    text-align: center;
+}
+
+#payNow a {
+    text-decoration: none;
+    color: black;
+}
+
+#payNow {
+    margin-bottom: 2%;
+}
+
+.login {
+    text-align: right;
+    margin-right: 2%;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    text-align: left;
+    margin-left: 1%;
+}

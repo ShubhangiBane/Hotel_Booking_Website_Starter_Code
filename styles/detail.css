@@ -1,0 +1,138 @@
+#header img {
+    height: 60px;
+    width: 60px;
+}
+
+#header>div {
+    margin: 10px;
+    width: -webkit-fill-available;
+}
+
+#content img {
+    height: 350px;
+    width: 500px;
+}
+
+#footer img {
+    height: 20px;
+    width: 22px;
+}
+
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+#header {
+    background-color: rosybrown;
+}
+
+.footer {
+    display: flex;
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer>div {
+    margin: 10px;
+    width: -webkit-fill-available;
+}
+
+#hotelImg {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+#discription {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.contact {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.website {
+    text-align: right;
+    margin-right: 2%;
+}
+
+.text {
+    text-align: center;
+}
+
+#payNow a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2%;
+}
+
+#payNow {
+    margin-bottom: 2%;
+}
+
+.login {
+    text-align: right;
+    margin-right: 2%;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    text-align: left;
+    margin-left: 1%;
+}
+
+#container {
+    width: -webkit-fill-available;
+    max-height: 400px;
+    border: 1px solid;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#form>td {
+    padding: 2px;
+    margin: 2px;
+    border: none;
+}
+
+#form label,
+input {
+    margin: 4%;
+}
+
+#form label {
+    width: 40%;
+    text-align: left;
+}
+
+#form input {
+    width: 60%;
+    text-align: right;
+}
+
+.style {
+    font-family: cursive;
+}
