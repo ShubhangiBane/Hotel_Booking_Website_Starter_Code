@@ -1,63 +1,40 @@
-#header img {
-    height: 60px;
-    width: 60px;
-    text-align: left;
-}
-
-#header>div {
-    margin: 10px;
-    width: -webkit-fill-available;
-}
-
-.login {
-    text-align: right;
-    margin-right: 2%;
-}
-
-.login a {
-    text-decoration: none;
-    color: black;
-}
-
-.login a:hover {
-    background-color: gray;
-}
-
-.footer {
-    display: flex;
-    background-color: rosybrown;
-    position: sticky;
-    bottom: 0;
-}
-
-.footer>div {
-    margin: 10px;
-    width: -webkit-fill-available;
-}
-
-#content img {
+.places {
     height: 150px;
     width: 150px;
 }
 
-.footer img {
-    height: 20px;
-    width: 22px;
-}
-
 body {
-    margin: 0;
     background-color: #e0e0e0;
+    margin: 0%;
+    min-height: 100vh;
 }
 
 #header {
     background-color: rosybrown;
-    position: relative;
-    display: flex;
+    margin: 0px;
+    padding: 0px;
+    position: sticky;
+    top: 0%;
+    width: 100%;
 }
 
-.searchDiv {
-    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+.login {
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+#search {
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,67 +43,139 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
 }
 
-#search {
+#searchBar>input {
     background-color: #f1f1f1;
     border: 1px solid transparent;
     border-radius: 12px;
     width: 400px;
     font-size: 16px;
     padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     outline: none;
 }
 
-#imageDiv {
-    display: center;
+.cities1 {
     margin-left: 15%;
     margin-right: 15%;
+    /* margin-top: 2%; */
+    padding: 0%;
+    text-align: center;
+    margin: 2%;
+    display: flex;
     justify-content: space-evenly;
+    bottom: 20px;
+    top: 30px;
 }
 
-.cityImage img {
-    padding: 4%;
+.cities2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    /* margin-top: 2%; */
+    padding: 0%;
+    text-align: center;
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 170px;
+    top: 100px;
+}
+
+.cities2 {
+    position: relative;
+}
+
+
+/* Hover start */
+
+.cities1 {
+    position: relative;
+}
+
+.places {
+    display: block;
+    /* width: 100%;
+    height: auto; */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
     border-radius: 25%;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.contact {
-    text-align: left;
-    margin-left: 2%;
+.hov:hover .overlay {
+    opacity: 0.5;
 }
 
-.contact a {
-    text-decoration: none;
-    background-color: #0098b3;
-    color: white;
-}
-
-.website {
-    text-align: right;
-    margin-right: 2%;
+.hov {
+    position: relative;
 }
 
 .text {
+    color: #f1f1f1;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
+}
+
+
+/* hover end here */
+
+.places {
+    padding: 0%;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#viewmore {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#viewmore>button>a {
+    text-decoration: none;
+    color: white
+}
+
+.footer {
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
     vertical-align: middle;
 }
 
-#view {
-    text-align: center;
-    margin-bottom: 2%;
+.social {
+    height: 20px;
+    width: 22px;
+    margin-right: 10px;
 }
 
-#view a {
+#contactus {
     text-decoration: none;
-    background-color: gray;
-    color: white;
+    color: black;
+    margin-left: 40px;
 }
 
-.logo {
-    text-align: left;
-    margin-left: 1%;
+#copy>p {
+    margin-bottom: 0%;
+    margin-top: 4%;
+    vertical-align: middle;
 }
