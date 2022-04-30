@@ -53,29 +53,29 @@
             </div>
         </div>
         <div id="cities2" class="cities2">
-            <div class="hov">
-                <img class="places" src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg" />
+            <div id="image1" class="hov">
+                <img id="image" class="places" src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg" />
                 <div class="overlay">
                     <div class="text">Chennai</div>
                 </div>
             </div>
 
-            <div class="hov">
-                <img class="places" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg" />
+            <div id="image1" class="hov">
+                <img id="image" class="places" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg" />
                 <div class="overlay">
                     <div class="text">Agra</div>
                 </div>
             </div>
 
-            <div class="hov">
-                <img class="places" src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg" />
+            <div id="image1" class="hov">
+                <img id="image" class="places" src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg" />
                 <div class="overlay">
                     <div class="text">Jaipur</div>
                 </div>
             </div>
 
-            <div class="hov">
-                <img class="places" src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg" />
+            <div id="image1" class="hov">
+                <img id="image" class="places" src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg" />
                 <div class="overlay">
                     <div class="text">Bengaluru</div>
                 </div>
@@ -84,7 +84,7 @@
 
         </div>
         <section id="viewmore">
-            <button id="view" type="button" onclick="removeHeader()" class="btn btn-secondary"><a href="#" >View more</a></button>
+            <button id="view" type="button" onclick="show_hide()" class="btn btn-secondary"><a href="#" >View more</a></button>
         </section>
 
         <div class="footer">
@@ -111,11 +111,19 @@
         </div>
     </div>
     <script>
-        function removeHeader() {
-            var paraElement = document.getElementById('container')
-            var childElement = document.getElementById('cities2')
-            paraElement.removeChild(childElement)
+        var a;
+
+        function show_hide() {
+            if (a == 1) {
+                document.getElementById("image").style.display = "inline";
+                return a = 0;
+            } else {
+                document.getElementById("image").style.display = "none";
+                return a = 1;
+            }
         }
+
+
 
         function myFunction() {
             alert("Successfully loggedin");
