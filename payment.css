@@ -1,0 +1,50 @@
+#radissondetails {
+    background-color: rgb(132, 136, 139);
+    height: 20%;
+    width: 50%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#venue {
+    margin: 2%;
+}
+
+#details {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-bottom: 120px;
+    background-color: rosybrown;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 4px;
+}
+
+b {
+    font-family: cursive;
+}
+
+
+/* #userdetails{
+    margin: 2%;
+} */
+
+#Tariffdetails {
+    margin: 2%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 2% 2%;
+}
+
+#paynow {
+    /* margin-bottom: 30px; */
+    margin-top: 80px;
+}
+
+#paynow>a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,52 @@
+#contentDiv #list-view img {
+    height: 200px;
+    width: 250px;
+}
+
+#contentDiv {
+    margin-bottom: 100px;
+}
+
+#list-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2%;
+}
+
+.hotels-list {
+    background-color: lightgray;
+    width: 95%;
+    height: 200px;
+    margin: 5%;
+    display: flex;
+}
+
+.hotels-list:hover {
+    background-color: rosybrown;
+}
+
+#list-view a {
+    text-decoration: none;
+    color: black;
+}
+
+#contentDiv ul a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#contentDiv ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.hotel-content {
+    margin: 5%;
+}
+
+.checked {
+    color: orange;
+}

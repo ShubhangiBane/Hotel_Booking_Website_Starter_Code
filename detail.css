@@ -1,0 +1,57 @@
+#registration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 700px;
+    margin: 2% 2%;
+}
+
+#radisson {
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 60%;
+}
+
+#form {
+    flex-grow: 1;
+    padding: 5px;
+    border-left: 0px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: black;
+    border: 1px solid black;
+    width: 40%;
+}
+
+form {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.list-Style {
+    display: flex;
+    padding: 0.5em;
+}
+
+.label-Style {
+    flex: 1;
+}
+
+.input-Style {
+    width: 60%;
+}
+
+.description {
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}

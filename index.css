@@ -1,0 +1,114 @@
+.places {
+    height: 150px;
+    width: 150px;
+}
+
+#search {
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar>input {
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    width: 400px;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+}
+
+.cities1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    /* margin-top: 2%; */
+    padding: 0%;
+    text-align: center;
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 20px;
+    top: 30px;
+    position: relative;
+}
+
+.cities2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0%;
+    text-align: center;
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 170px;
+    top: 100px;
+    position: relative;
+    display: none;
+}
+
+
+/* Hover start */
+
+.places {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 25%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hov:hover .overlay {
+    opacity: 0.5;
+}
+
+.hov {
+    position: relative;
+}
+
+.text {
+    color: #f1f1f1;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* hover end here */
+
+.places {
+    padding: 0%;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#viewmore {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+
+#viewmore>button>a {
+    text-decoration: none;
+    color: white
+}
